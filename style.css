@@ -13,8 +13,9 @@ body {
     overflow: hidden;
 }
 #iconStitch{
-    width: 550px;
-    margin-top: -180px;
+    width: 500px;
+    margin-top: -140px;
+    padding: 0;
    
 }
 
