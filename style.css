@@ -4,6 +4,8 @@ body {
     background: url('./images/stitch.gif');
     background-size: 200px;
     background-position: 0 -20px;
+    background-repeat: no-repeat;
+
 }
 
 .container {
