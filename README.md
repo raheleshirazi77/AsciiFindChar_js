@@ -1,2 +1,9 @@
-# convertDate_js
-Hello, this is a mini-project to convert the Gregorian date to the solar year, which I want to do with JavaScript, HTML, and CSS.
+# nameProject: 
+* convertDate_js
+## discription:
+* Hi, this is a **mini project** to find the ***ACSII*** character code that I want to do with **JavaScript**, **HTML** and **CSS**.
+
+### use methode in js:
+* function
+* methode charCodeAt()
+* getElementById()

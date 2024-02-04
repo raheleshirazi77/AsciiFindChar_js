@@ -4,36 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConvertDate</title>
+    <title>code ASCII char</title>
     <!-- link css -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <!-- start project -->
+    <!--start project -->
     <div class="container">
-        <div class="imgRobot">
-            <img src="./images/robot.gif" width="40px">
-        </div>
-        <div class="boxHead">
-            <h6>سلام خوش اومدین لطفا برای تبدیل تاریخ دکمه زیر را کلیک کنید💕</h6>
-        </div>
-        <div class="btn">
-            <button onclick="">کلیک کن</button>
-        </div>
+        <!-- create input daryaft vorodi az user -->
+        <input type="text" id="charInput" oninput="showAsciiCode()" placeholder="ENTER YOUR CHAR">
+        <!-- display value  ascii code in input -->
+        <p id="asciiResult"></p>
+
     </div>
-
-
-
-
-
-
-
-
-
-
     <!-- link js -->
     <script src="./app.js"></script>
 </body>
-
 </html>

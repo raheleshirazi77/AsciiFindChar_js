@@ -1,10 +1,49 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('./images/stitch.gif');
+    background-size: 200px;
+    background-position: 0 -20px;
 }
-.container{
+
+.container {
     width: 100%;
-    margin: 0 auto;
-    background-color: aquamarine;
+    height: 100%;
+}
+
+#asciiResult {
+    font-size: 10px;
+    margin: 2% auto;
+    background-color: rgba(0, 0, 0, 0.743);
+    color: aliceblue;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#charInput {
+    background-color: rgb(132, 0, 255);
+    outline: none;
+    box-shadow: 1px 2px 6px 1px rgb(35, 1, 58);
+    border: 1px solid rgba(49, 0, 156, 0.266);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: aliceblue;
+}
+
+#charInput::placeholder {
+    font-size: 10px;
+    color: hwb(56 94% 0% / 0.537);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
