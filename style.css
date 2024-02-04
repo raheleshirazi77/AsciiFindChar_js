@@ -2,9 +2,10 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background: url('./images/stitch.gif');
-    background-size: 200px;
-    background-position: 0 -20px;
-    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 0 -10px;
+    background-attachment: fixed;
+    background-clip: border-box;
 
 }
 
